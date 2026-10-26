@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Conecta Jovem</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="cabecalho">
+        <div class="limite menu-principal">
+            <h1 class="logotipo">Conecta<span>Jovem</span></h1>
+            <nav>
+                <ul class="lista-menu">
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#sobre">Sobre Nós</a></li>
+                    <li><a href="#galeria">Galeria</a></li>
+                    <li><a href="#doar">Como Doar</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="inicio" class="destaque">
+        <div class="limite conteudo-destaque">
+            <h2>Transformando Vidas Através da Tecnologia</h2>
+            <p>Capacitamos jovens de comunidades carentes com oficinas gratuitas de informática, lógica e programação para o mercado do futuro.</p>
+            <div class="botoes-destaque">
+                <a href="#sobre" class="botao botao-principal">Saiba Mais</a>
+                <a href="#doar" class="botao botao-secundario">Quero Ajudar</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre" class="secao">
+        <div class="limite">
+            <h2 class="titulo-secao">Sobre a Organização</h2>
+            <div class="grade-sobre">
+                <div class="texto-sobre">
+                    <p>O Projeto Conecta Jovem surgiu com a missão de diminuir a barreira digital que afeta estudantes de baixa renda. Acreditamos que o acesso à educação tecnológica é a principal ferramenta para gerar oportunidades reais.</p>
+                    <p>Contamos com um laboratório equipado, monitores voluntários dedicados e uma grade curricular focada tanto na base teórica quanto na prática de mercado.</p>
+                </div>
+                <div class="imagem-sobre">
+                    <img src="sobre.jpg" alt="imagem1">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="galeria" class="secao fundo-cinza">
+        <div class="limite">
+            <h2 class="titulo-secao">Galeria de Atividades</h2>
+            <p class="subtitulo-secao">Acompanhe alguns registros das nossas turmas e reuniões de estudo sobre computadores:</p>
+            <div class="grade-galeria">
+                <div class="item-galeria">
+                    <img src="meninos1.jpg" alt="imagem2">
+                    <div class="legenda-galeria">Aulas práticas no laboratório</div>
+                </div>
+                <div class="item-galeria">
+                    <img src="formatura.jpg" alt="imagem3">
+                    <div class="legenda-galeria">Formatura da turma de programação</div>
+                </div>
+                <div class="item-galeria">
+                    <img src="menutencao.jpg" alt="imagem4">
+                    <div class="legenda-galeria">Manutenção de máquinas doadas</div>
+                </div>
+            </div>
+
+            <div class="caixa-video">
+                <h3>Vídeo do Projeto: Como Funciona a Internet</h3>
+                <div class="responsivo-video">
+                    <iframe src="https://www.youtube.com/embed/1G48PTHxMco" title="Como Funciona a Internet" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="doar" class="secao">
+        <div class="limite">
+            <h2 class="titulo-secao">Como Contribuir</h2>
+            <div class="grade-doacao">
+                <div class="cartao-doacao">
+                    <h3>Doação via Pix</h3>
+                    <p>Ajude a manter nossa estrutura e lanches para os nossos estudantes em dias de aula.</p>
+                    <span class="chave-pix">pix@conectajovem.org</span>
+                </div>
+                <div class="cartao-doacao">
+                    <h3>Doação de Hardwares</h3>
+                    <p>Recebemos peças antigas, notebooks e periféricos conservados.</p>
+                </div>
+                <div class="cartao-doacao">
+                    <h3>Seja Voluntário</h3>
+                    <p>Compartilhe seu conhecimento técnico dando aulas ou ajudando a organização como puder.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="secao fundo-cinza">
+        <div class="limite">
+            <h2 class="titulo-secao">Entre em Contato</h2>
+            <form class="formulario-contato" action="#" method="post">
+                <div class="campo">
+                    <label for="nome">Seu Nome</label>
+                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required>
+                </div>
+                <div class="campo">
+                    <label for="email">Seu E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+                </div>
+                <div class="campo">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" placeholder="Escreva sua dúvida ou proposta..." required></textarea>
+                </div>
+                <button type="submit" class="botao botao-principal botao-cheio">Enviar Mensagem</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="rodape">
+        <div class="limite">
+            <p>&copy; 2026 Projeto Conecta Jovem. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
